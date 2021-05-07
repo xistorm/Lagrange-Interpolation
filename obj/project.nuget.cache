@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "DwBlvpNvQo90xs4l/hPZqrnYvm6yw7wvGw4k+stfTSraywrHxbnIpsYhBrki0FhHVjqsxMm0CCClXApFVJ+c+w==",
+  "success": true,
+  "projectFilePath": "H:\\work\\tasks\\LagrangeApprox\\FuncDrawAndApproximate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xis40\\.nuget\\packages\\extendednumerics.bigrational\\1.1.0.50000\\extendednumerics.bigrational.1.1.0.50000.nupkg.sha512",
+    "C:\\Users\\xis40\\.nuget\\packages\\oxyplot.core\\2.1.0-preview1\\oxyplot.core.2.1.0-preview1.nupkg.sha512",
+    "C:\\Users\\xis40\\.nuget\\packages\\oxyplot.wpf\\2.1.0-preview1\\oxyplot.wpf.2.1.0-preview1.nupkg.sha512",
+    "C:\\Users\\xis40\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.0-preview1\\oxyplot.wpf.shared.2.1.0-preview1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ExtendedNumerics.BigRational 1.1.0.50000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ExtendedNumerics.BigRational",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

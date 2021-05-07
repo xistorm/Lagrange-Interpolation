@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\xis40\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\xis40\\.nuget\\packages"
+    ]
+  }
+}

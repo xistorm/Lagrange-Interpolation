@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "ExtendedNumerics.BigRational/1.1.0.50000": {
+        "type": "package",
+        "compile": {
+          "lib/net45/BigRational.dll": {}
+        },
+        "runtime": {
+          "lib/net45/BigRational.dll": {}
+        }
+      },
+      "OxyPlot.Core/2.1.0-Preview1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OxyPlot.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OxyPlot.dll": {}
+        }
+      },
+      "OxyPlot.Wpf/2.1.0-Preview1": {
+        "type": "package",
+        "dependencies": {
+          "OxyPlot.Core": "2.1.0-Preview1",
+          "OxyPlot.Wpf.Shared": "2.1.0-Preview1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "OxyPlot.Wpf.Shared/2.1.0-Preview1": {
+        "type": "package",
+        "dependencies": {
+          "OxyPlot.Core": "2.1.0-Preview1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ExtendedNumerics.BigRational/1.1.0.50000": {
+      "sha512": "twEgvU1S+l2DlLPfdCpeWJ0Y50LiVtuwgfJPi+birk/EtgT3QHRb5MtUYN8Y68yPLpkjHhoXxwlur7cXnE1VuQ==",
+      "type": "package",
+      "path": "extendednumerics.bigrational/1.1.0.50000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extendednumerics.bigrational.1.1.0.50000.nupkg.sha512",
+        "extendednumerics.bigrational.nuspec",
+        "lib/net45/BigRational.dll"
+      ]
+    },
+    "OxyPlot.Core/2.1.0-Preview1": {
+      "sha512": "RHP7AXyiVXArMIkdIbhf5SbcO5iXg3UPZmzI8y5HpxQq0nHDMFMvWDcd1v/zlhUCX5/uSCDLCl1xxd1V1OWBmQ==",
+      "type": "package",
+      "path": "oxyplot.core/2.1.0-preview1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "lib/net40/OxyPlot.dll",
+        "lib/net40/OxyPlot.xml",
+        "lib/net45/OxyPlot.dll",
+        "lib/net45/OxyPlot.xml",
+        "lib/netstandard1.0/OxyPlot.dll",
+        "lib/netstandard1.0/OxyPlot.xml",
+        "lib/netstandard2.0/OxyPlot.dll",
+        "lib/netstandard2.0/OxyPlot.xml",
+        "oxyplot.core.2.1.0-preview1.nupkg.sha512",
+        "oxyplot.core.nuspec"
+      ]
+    },
+    "OxyPlot.Wpf/2.1.0-Preview1": {
+      "sha512": "gZcC6Q4U3b5UVmY6/WF7rfeV5WeMc6MEb+t6EchN9ZjTiJSejmOO9k/2G9O1tHtfFYqMMDFG2QF1magkWmksxg==",
+      "type": "package",
+      "path": "oxyplot.wpf/2.1.0-preview1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "lib/net40/OxyPlot.Wpf.dll",
+        "lib/net40/OxyPlot.Wpf.xml",
+        "lib/net45/OxyPlot.Wpf.dll",
+        "lib/net45/OxyPlot.Wpf.xml",
+        "lib/netcoreapp3.1/OxyPlot.Wpf.dll",
+        "lib/netcoreapp3.1/OxyPlot.Wpf.xml",
+        "oxyplot.wpf.2.1.0-preview1.nupkg.sha512",
+        "oxyplot.wpf.nuspec"
+      ]
+    },
+    "OxyPlot.Wpf.Shared/2.1.0-Preview1": {
+      "sha512": "yTmvOFnpfnjdSwhHbtXU9PksCZ1RQbZ2FX38EpNPIQ8eWaH21p472+fdq62YIjih7DViax8FmmW+QEmzDNEGKw==",
+      "type": "package",
+      "path": "oxyplot.wpf.shared/2.1.0-preview1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "OxyPlot_128.png",
+        "lib/net40/OxyPlot.Wpf.Shared.dll",
+        "lib/net40/OxyPlot.Wpf.Shared.xml",
+        "lib/net45/OxyPlot.Wpf.Shared.dll",
+        "lib/net45/OxyPlot.Wpf.Shared.xml",
+        "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.dll",
+        "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.xml",
+        "oxyplot.wpf.shared.2.1.0-preview1.nupkg.sha512",
+        "oxyplot.wpf.shared.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "ExtendedNumerics.BigRational >= 1.1.0.50000",
+      "OxyPlot.Wpf >= 2.1.0-Preview1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\xis40\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "H:\\work\\tasks\\LagrangeApprox\\FuncDrawAndApproximate.csproj",
+      "projectName": "FuncDrawAndApproximate",
+      "projectPath": "H:\\work\\tasks\\LagrangeApprox\\FuncDrawAndApproximate.csproj",
+      "packagesPath": "C:\\Users\\xis40\\.nuget\\packages\\",
+      "outputPath": "H:\\work\\tasks\\LagrangeApprox\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\xis40\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "ExtendedNumerics.BigRational": {
+            "target": "Package",
+            "version": "[1.1.0.50000, )"
+          },
+          "OxyPlot.Wpf": {
+            "target": "Package",
+            "version": "[2.1.0-Preview1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ExtendedNumerics.BigRational 1.1.0.50000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ExtendedNumerics.BigRational",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

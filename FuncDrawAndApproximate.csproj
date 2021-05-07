@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ExtendedNumerics.BigRational" Version="1.1.0.50000" />
+      <PackageReference Include="OxyPlot.Wpf" Version="2.1.0-Preview1" />
+    </ItemGroup>
+
+</Project>

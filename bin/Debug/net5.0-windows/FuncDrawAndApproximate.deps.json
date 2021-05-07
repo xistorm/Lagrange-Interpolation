@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FuncDrawAndApproximate/1.0.0": {
+        "dependencies": {
+          "ExtendedNumerics.BigRational": "1.1.0.50000",
+          "OxyPlot.Wpf": "2.1.0-Preview1"
+        },
+        "runtime": {
+          "FuncDrawAndApproximate.dll": {}
+        }
+      },
+      "ExtendedNumerics.BigRational/1.1.0.50000": {
+        "runtime": {
+          "lib/net45/BigRational.dll": {
+            "assemblyVersion": "1.1.0.50000",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "OxyPlot.Core/2.1.0-Preview1": {
+        "runtime": {
+          "lib/netstandard2.0/OxyPlot.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "OxyPlot.Wpf/2.1.0-Preview1": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.0-Preview1",
+          "OxyPlot.Wpf.Shared": "2.1.0-Preview1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "OxyPlot.Wpf.Shared/2.1.0-Preview1": {
+        "dependencies": {
+          "OxyPlot.Core": "2.1.0-Preview1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OxyPlot.Wpf.Shared.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FuncDrawAndApproximate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtendedNumerics.BigRational/1.1.0.50000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-twEgvU1S+l2DlLPfdCpeWJ0Y50LiVtuwgfJPi+birk/EtgT3QHRb5MtUYN8Y68yPLpkjHhoXxwlur7cXnE1VuQ==",
+      "path": "extendednumerics.bigrational/1.1.0.50000",
+      "hashPath": "extendednumerics.bigrational.1.1.0.50000.nupkg.sha512"
+    },
+    "OxyPlot.Core/2.1.0-Preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RHP7AXyiVXArMIkdIbhf5SbcO5iXg3UPZmzI8y5HpxQq0nHDMFMvWDcd1v/zlhUCX5/uSCDLCl1xxd1V1OWBmQ==",
+      "path": "oxyplot.core/2.1.0-preview1",
+      "hashPath": "oxyplot.core.2.1.0-preview1.nupkg.sha512"
+    },
+    "OxyPlot.Wpf/2.1.0-Preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gZcC6Q4U3b5UVmY6/WF7rfeV5WeMc6MEb+t6EchN9ZjTiJSejmOO9k/2G9O1tHtfFYqMMDFG2QF1magkWmksxg==",
+      "path": "oxyplot.wpf/2.1.0-preview1",
+      "hashPath": "oxyplot.wpf.2.1.0-preview1.nupkg.sha512"
+    },
+    "OxyPlot.Wpf.Shared/2.1.0-Preview1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yTmvOFnpfnjdSwhHbtXU9PksCZ1RQbZ2FX38EpNPIQ8eWaH21p472+fdq62YIjih7DViax8FmmW+QEmzDNEGKw==",
+      "path": "oxyplot.wpf.shared/2.1.0-preview1",
+      "hashPath": "oxyplot.wpf.shared.2.1.0-preview1.nupkg.sha512"
+    }
+  }
+}
